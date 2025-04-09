@@ -31,13 +31,13 @@ A SOC analyst receives a suspicious IP address or process name. Instead of manua
 ---
 
 ## 📦 Requirements
-Python 3.x \n
-requests /n
-google-genai
+- Python 3.x
+- requests
+- google-genai
 
 ---
 
-⚠️ Note: You must configure your Gemini API key inside the code to enable report generation. https://ai.google.dev/gemini-api/docs?_gl=1*18iymam*_up*MQ..*_ga*MTE4NTc5NjQzMS4xNzQ0MTY1MzMz*_ga_P1DBVKWT6V*MTc0NDE2NTMzMy4xLjAuMTc0NDE2NTMzMy4wLjAuMTgyMzA1NTg2Nw..
-⚠️ Note: You must configure your AbuseIPDB API key inside Enrichment_Library.py to enable IP data triage. https://docs.abuseipdb.com/#introduction
-⚠️ Note: You must configure your VirusTotal API key inside Enrichment_Library.py to enable Process data triage. https://www.virustotal.com/gui/sign-in
+- ⚠️ Note: You must configure your Gemini API key inside the code to enable report generation. https://ai.google.dev/gemini-api/docs?_gl=1*18iymam*_up*MQ..*_ga*MTE4NTc5NjQzMS4xNzQ0MTY1MzMz*_ga_P1DBVKWT6V*MTc0NDE2NTMzMy4xLjAuMTc0NDE2NTMzMy4wLjAuMTgyMzA1NTg2Nw..
+- ⚠️ Note: You must configure your AbuseIPDB API key inside Enrichment_Library.py to enable IP data triage. https://docs.abuseipdb.com/#introduction
+- ⚠️ Note: You must configure your VirusTotal API key inside Enrichment_Library.py to enable Process data triage. https://www.virustotal.com/gui/sign-in
 
