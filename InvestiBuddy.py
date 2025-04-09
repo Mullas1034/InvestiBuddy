@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from IPinfo import *
+from Enrichment_Library import *
 
 
 def on_submit():
