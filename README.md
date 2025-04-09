@@ -31,8 +31,8 @@ A SOC analyst receives a suspicious IP address or process name. Instead of manua
 ---
 
 ## 📦 Requirements
-Python 3.x
-requests
+Python 3.x \n
+requests /n
 google-genai
 
 ---
