@@ -8,7 +8,7 @@ import json
 def IPinfo(ip):
     data = "Do not include IP information in report"
 
-    token = ''
+    token = 'INSERT IPINFO TOKEN HERE'
 
     url = f'https://ipinfo.io/{ip}?token={token}'
 
@@ -33,7 +33,7 @@ def abuseIPdb(ip):
 
     headers = {
         'Accept': 'application/json',
-        'Key': ''
+        'Key': 'INSERT ABUSEIPDB API KEY HERE'
     }
 
     response = requests.request(method='GET', url=url, headers=headers, params=querystring)
@@ -53,7 +53,7 @@ def ProcessInfo(sig):
     url = f'http://www.virustotal.com/api/v3/files/{sig}'
 
     headers = {
-        "x-apikey":""
+        "x-apikey":"INSERT VIRUS TOTAL API KEY HERE"
 
         }
 
@@ -108,7 +108,7 @@ def ProcessInfo(sig):
     return Process, Signers, FtypeData, sig, ratio
 
 def google_api_name(fName, ip):
-    client = genai.Client(api_key="")
+    client = genai.Client(api_key="INSERT GEMINI AI API KEY HERE")
     response = client.models.generate_content(model="gemini-2.0-flash",
         contents=f'''
         You are an advanced reporting writing AI designed to generate professional reports for security investigations based on provided input.
@@ -126,7 +126,7 @@ def google_api_name(fName, ip):
 
 #This pipes all API enriched data and leverages google Gemini API
 def google_api_hash(process,signers,ip, FtypeData, sig, ratio):
-    client = genai.Client(api_key="")
+    client = genai.Client(api_key="INSERT GEMINI AI API KEY HERE")
     response = client.models.generate_content(
         model="gemini-2.0-flash",
         contents=f'''
