@@ -21,4 +21,4 @@
 
 1. **Clone the repo**
    ```bash
-   https://github.com/Mullas1034/InvestiBuddy.git
+   git clone https://github.com/Mullas1034/InvestiBuddy.git
